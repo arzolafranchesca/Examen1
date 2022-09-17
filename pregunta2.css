@@ -26,11 +26,15 @@ header{
 
 }
 
+section{
+    height: 820px;
+}
 .menu{
     background-color: #12AAFF;
     border:solid;
     border-color: transparent;
     width: 120px;
+    height: 820px;
 }
 .menu ul{
     list-style: none;
