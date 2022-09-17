@@ -28,17 +28,20 @@ header{
 
 section{
     height: 820px;
+    display: flex;
 }
 .menu{
+    flex:1;
     background-color: #12AAFF;
     border:solid;
     border-color: transparent;
-    width: 120px;
+    width: 125px;
     height: 820px;
 }
 .menu ul{
     list-style: none;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .menu li{
     display: block;
@@ -49,4 +52,60 @@ section{
     display: block;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.categoria{
+    background-color: #E8E8E8;
+    display: flex;
+    height: 420px;
+}
+.categoria h1{
+    padding-left: 20px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuadro1,.cuadro2,.cuadro3{
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-left: 0px;   
+    background-color: white;
+
+}
+
+.categoria img{
+    width: 200px;
+    height: 200px;
+    padding-left: 50px;
+}
+.categoria a {
+    text-decoration: none;
+}
+.categoria h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color:black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.explora_mas{
+    background-color: #E8E8E8;
+    height: 400px;
+}
+
+.explora_mas img{
+    width: 700px;
+    height: 200px;
+    padding-left: 50px;
+}
+.cuadro4{
+    width: 900px;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-top: 50px;   
+    background-color: white;
+
 }
