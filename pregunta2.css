@@ -6,10 +6,24 @@ header{
     border:solid;
     border-color: black;
     background-color: #12AAFF;
+    display: flex;
 }
 
 .titulo{
-    border:solid;
-    border-color: black;
-    width: 100px;
+    flex:5;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 26px;
 }
+.cerrar_sesion{
+    flex:1;
+    padding-left: 30px;
+    padding-top: 16px;
+}
+.cerrar_sesion a{
+    text-align: center;
+    padding-left: 80px;
+    color:white;
+
+}
+
