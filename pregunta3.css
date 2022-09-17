@@ -1,6 +1,7 @@
 table{
     border:solid;
     border-color: black;
+    border-collapse: collapse;
 }
 
 table th{
