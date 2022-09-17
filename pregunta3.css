@@ -1,0 +1,18 @@
+table{
+    border:solid;
+    border-color: black;
+}
+
+table th{
+    background-color:aqua;
+}
+table th , td{
+    border:solid;
+    border-color: black;
+}
+table tr:nth-child(even){
+    background-color:gray;
+}
+table tr:nth-child(oden){
+    background-color:white;
+}
