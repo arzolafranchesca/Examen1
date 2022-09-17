@@ -1,5 +1,5 @@
 table{
-    border:solid;
+    border:solid 1px;
     border-color: black;
     border-collapse: collapse;
 }
@@ -8,7 +8,7 @@ table th{
     background-color:aqua;
 }
 table th , td{
-    border:solid;
+    border:solid 1px;
     border-color: black;
 }
 table tr:nth-child(even){
